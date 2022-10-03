@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 const Navmenue = (props) => {
     return (
-        <div>
+        <div className="navbarContainer">
             <Navbar expand="lg" bg="dark" variant="dark">
                 <NavLink>
                     <Link to="/">
